@@ -5,11 +5,6 @@ namespace ComicBookGallery.Controllers
     public class ComicBookController : Controller
     {
 
-        public string Index() 
-        {
-            return "This is the homepage";
-        }
-
         // The return type is action result because RedirectResult and ContentResult
         // both have a base class of ActionResult.  This way we can return either. 
         // Because of this ActionResult is almost always used as return type. 
