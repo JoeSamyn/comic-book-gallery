@@ -22,6 +22,7 @@ namespace ComicBookGallery.Controllers
             }
 
             // Can user Content insted of new ContentResult()
+            // Checking version control
             return Content("Here is a gallery about comic books!");
         }
     }
