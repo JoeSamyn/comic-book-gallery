@@ -33,8 +33,8 @@ namespace ComicBookGallery.Controllers
 
         public ActionResult Index()
         {
-
-            return View();
+            var comicBooks = _comicBookRepository.GetComicBooks();
+            return View(comicBooks);
         }
     }
 }
