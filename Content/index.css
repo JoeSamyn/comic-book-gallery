@@ -1,6 +1,40 @@
 ﻿body {
+    margin: 0;
 }
 
-header{
-    background-color: red;
+header {
+    background-color: #b81e0d;
+    width: 100%;
+}
+
+nav{
+    height: 40px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 1%;
+}
+
+a{
+    text-decoration: none;
+    padding: 12px 9px;
+}
+
+a:link{
+    color: white;
+}
+
+a:hover{
+    color: darkred;
+    background-color: black;
+}
+
+a:visited{
+    color: grey;
 }
